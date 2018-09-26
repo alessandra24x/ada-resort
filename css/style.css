@@ -1,0 +1,158 @@
+body {
+  background-image: url("../images/background.jpg");
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+header nav {
+  display: flex;
+}
+header .list-container {
+  display: flex;
+  padding: 0;
+  width: 100%;
+}
+header .list-container .list-item {
+  list-style-type: none;
+  text-align: center;
+  width: 100%;
+}
+
+.link {
+  padding: 12px;
+  background-color: #44c47e;
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+.link:hover {
+  background-color: grey;
+  color: #303030;
+}
+
+.text {
+  color: #3c3c3c;
+  line-height: 30px;
+  margin-bottom: 40px;
+}
+
+h1,
+h2 {
+  color: #44c47e;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.main-content .main-content-2 {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+
+.blog {
+  background-color: white;
+  padding: 5px;
+  color: #787878;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.blog h2 {
+  border-bottom: dotted gray;
+  padding-bottom: 15px;
+  margin-bottom: 10px;
+}
+
+.article p {
+  border-bottom: dotted gray;
+  font-size: 18px;
+}
+.article h4 {
+  font-size: 25px;
+  margin: 0;
+}
+
+h6 {
+  margin: 0;
+}
+
+.testimonials {
+  background-color: white;
+  padding: 5px;
+  color: #787878;
+  border-radius: 5px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.testimonials h2 {
+  margin-bottom: 0;
+}
+.testimonials p {
+  margin: 0;
+  font-size: 18px;
+}
+.testimonials span {
+  display: flex;
+  justify-content: flex-end;
+  color: #44c47e;
+}
+
+.images {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+  width: 30%;
+}
+.images img {
+  margin-bottom: 15px;
+  height: 160px;
+}
+
+footer {
+  display: flex;
+  width: 100%;
+  background-color: #92846e;
+  margin-top: 20px;
+  box-shadow: 0px 3px #0a0908;
+}
+
+.footer-list {
+  display: flex;
+  padding: 0;
+  width: 60%;
+}
+.footer-list .list-item-2 {
+  list-style-type: none;
+  text-align: center;
+  width: 100%;
+}
+
+.link-2 {
+  padding: 12px;
+  display: block;
+  color: #111010;
+  text-decoration: none;
+  font-weight: bold;
+}
+.link-2:hover {
+  color: white;
+}
+
+.social {
+  width: 40%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.social .fab {
+  font-size: 30px;
+  width: 60px;
+  color: white;
+}
+
+/*# sourceMappingURL=style.css.map */
